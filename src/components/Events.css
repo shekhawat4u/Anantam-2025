@@ -1,0 +1,220 @@
+.about-container {
+    background-image: url('public/img/bg ch.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 139, 139);
+    text-align: center;
+    position: relative; /* Ensure the content is above the background */
+    z-index: 5;
+  }
+  
+  .content {
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    position: relative; /* This allows z-index to work for positioning */
+    z-index: 10;
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromBottom {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animation classes */
+  .dexy-slide-in-left {
+    animation: slideInFromLeft 0.5s ease forwards;
+  }
+  
+  .dexy-slide-in-right {
+    animation: slideInFromRight 0.5s ease forwards;
+  }
+  
+  .sexy-slide-in-left {
+    animation: slideInFromLeft 0.5s ease forwards;
+  }
+  
+  .sexy-slide-in-right {
+    animation: slideInFromRight 0.5s ease forwards;
+  }
+  
+  .sexy-no-slide-in-top {
+    animation: slideInFromTop 0.5s ease forwards;
+  }
+  
+  .sexy-no-slide-in-bottom {
+    animation: slideInFromBottom 0.5s ease forwards;
+  }
+  
+  /* Event image animations */
+  .slide-in-left {
+    animation: slideInFromLeft 0.5s ease forwards;
+  }
+  
+  .slide-in-right {
+    animation: slideInFromRight 0.5s ease forwards;
+  }
+  
+  
+  .event-display {
+    position: relative;
+    color: rgb(50, 52, 48);
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    z-index: 15; /* Ensure it's above other content */
+  }
+  
+  .slide-in-right {
+    animation: slideInFromRight 0.5s forwards;
+  }
+  
+  .slide-in-left {
+    animation: slideInFromLeft 0.5s forwards;
+  }
+  
+  .sexy {
+    position: relative;
+    color: #222122;
+    font-size: 45px;
+    margin-bottom: 65px;
+    top: 280px;
+    right: 500px;
+    z-index: 20;
+  }
+  
+  .sexy-no {
+    position: relative;
+    color: #222122;
+    font-size: 220px;
+    top: 170px;
+    right: 125%;
+    z-index: 25;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 498px;
+    left: 130px;
+    max-width: 900px;
+    transition: transform 0.3s ease;
+    z-index: 30; /* Ensure it is below the text */
+  }
+
+  .event-image:hover {
+    transform: scale(1.8); 
+  }
+  
+  .navigation-buttons {
+    position: relative;
+    font-weight: bold;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    bottom: 400px;
+    right: 77px;
+    z-index: 40;
+  }
+  
+  .navigation-buttons button {
+    color: rgb(15, 15, 15);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .navigation-buttons button:hover {
+    shape-margin: 5px;
+    font-size: 24px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+  
+  .dexy {
+    position: relative;
+    top: 230px;
+    right: 650px;
+    color: #626946;
+    font-size: 120px;
+    width: 230%;
+    opacity: 0.5;
+    font-style:unset;
+    z-index: 45;
+  }
+  
+@keyframes slideInFromLeftDexy {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  .dexy-slide-in-left {
+    animation: slideInFromLeftPexy 0.5s ease forwards;
+  }
+  
+  .pexy{
+    position: relative;
+    font-size: 40px;
+    z-index: 50;
+    color: #CCFF0c;
+    top: 930px;
+    left: 300px;
+    width: 600px;
+    font-weight: bolder;
+  }

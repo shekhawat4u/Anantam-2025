@@ -1,5 +1,5 @@
 .about-container {
-    background-image: url('img/bg-ch.png');
+    background-image: url('/img/bg-ch.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     border-radius: 10px;
     width: 80%;
     max-width: 500px;
-    position: relative; /* This allows z-index to work for positioning */
+    position: relative;
     z-index: 10;
   }
   

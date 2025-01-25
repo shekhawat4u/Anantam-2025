@@ -9,7 +9,7 @@
     align-items: center;
     color: rgb(185, 139, 139);
     text-align: center;
-    position: relative; /* Ensure the content is above the background */
+    position: relative;
     z-index: 5;
   }
   

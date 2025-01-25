@@ -1,5 +1,5 @@
 .about-container {
-    background-image: url('public/img/bg ch.png');
+    background-image: url('img/bg ch.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@
     font-size: 50px;
     font-weight: bold;
     transition: transform 0.5s ease, opacity 0.5s ease;
-    z-index: 15; /* Ensure it's above other content */
+    z-index: 15; 
   }
   
   .slide-in-right {
